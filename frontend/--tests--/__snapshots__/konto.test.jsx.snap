@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Konto unchanged 1`] = `
+<div>
+  <div
+    class="flex flex-col justify-center items-center"
+  >
+    <h1
+      class="text 4xl"
+    >
+      Ditt konto
+    </h1>
+    <div
+      class="flex flex-col bg-yellow-50 border border-solid justify-content items-center w-[600px] h-96 rounded"
+    >
+      <p
+        class="mt-12"
+      >
+        <span
+          class="font-semibold"
+        >
+          Saldo:
+        </span>
+         
+        0
+         kronor
+      </p>
+      <div
+        class="mt-20"
+      >
+        <p
+          class="font-semibold text-2xl"
+        >
+          Insättning
+        </p>
+      </div>
+      <div
+        class="flex items-center mt-6"
+      >
+        <label
+          class="mr-2 mt-1"
+          for="depositAmount"
+        >
+          Belopp:
+        </label>
+        <input
+          class="mt-2 border border-gray-300 rounded p-1 [-moz-appearance:_textfield] [&::-webkit-inner-spin-button]:m-0 [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:m-0 [&::-webkit-outer-spin-button]:appearance-none"
+          id="depositAmount"
+          type="number"
+          value=""
+        />
+        <span
+          class="ml-2 mt-1"
+        >
+          kronor
+        </span>
+      </div>
+      <div
+        class="flex justify-center"
+      >
+        <button
+          class="bg-white text-black border border-yellow-50 rounded-full px-5 py-2 cursor-pointer mt-8"
+        >
+          Sätt in
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
